@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #011020;
+  font-family: sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  width: 60%;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.select {
+  width: 50%;
+  padding: 1rem;
+  background-color: #eee;
+  border: solid 1px #bbb;
+}
+
+.counter {
+  font-size: 2rem;
+  border-bottom: solid 1px #bbb;
+  padding: 2rem 0 0.5rem;
+}
+
+.list {
+  margin: 2rem 0;
+}
+
+.list-item {
+  background-color: #0052a9;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.lang {
+  background-color: #1771da;
+  padding: 0.3rem;
+  border-radius: 0.3rem 0.5rem;
+  margin-left: 0.5rem;
+}
+
+
+.list-item--hidden {
+  display: none;
+}
+
+/* Ajoute tous les styles dont tu as besoin ici */
+/* 
+  codes couleurs :
+  - bleu des items de listes : #0052a9
+  - bleu des tags : #1771da
+  - gris des select: #eee
+  - gris des bordures: #bbb
+*/
